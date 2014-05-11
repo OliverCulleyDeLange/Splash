@@ -9,10 +9,17 @@
         <style>
             html {max-width:75%; margin:auto;background-color: #000000;}
         </style>
+        <script src="jquery-2.1.1.min.js"></script>
     </head>
     
     <body>
         <object id="svg" data="Splash.svg" type="image/svg+xml"></object>
+         <script>
+                function scroll(){
+                    $('html, body').animate({scrollTop: 250}, 2000);
+                }
+                scroll();
+
+        </script>
     </body>
-    
 </html>
