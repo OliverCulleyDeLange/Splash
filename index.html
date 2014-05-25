@@ -3,13 +3,13 @@
     <head>
         <title>SplishSplashSploosh</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="description" content="Splish Splash Sploosh" />
-        <meta name="keywords" content="Oliver de Lange, Olly de Lange, " />
+        <meta name="description" content="Oliver de Lange - Links to Website, GitHub, Facebook, LinkedIn, SoundCloud and YouTube" />
+        <meta name="keywords" content="Oliver de Lange, Olly de Lange, Website, GitHub, Facebook, LinkedIn, SoundCloud and YouTube " />
         <link href="favicon.ico" type="image/x-icon" rel="shortcut icon">
         <style>
             html {max-width:75%; margin:auto;background-color: #000000;}
         </style>
-        <script src="jquery-2.1.1.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     </head>
     
     <body>
@@ -17,8 +17,9 @@
          <script>
                 function scroll(){
                     $('html, body').animate({scrollTop: 250}, 2000);
-                }
-                $( document ).onLoad(scroll());
+                };
+                //$( document ).onLoad(scroll());
+		window.onload = scroll();
         </script>
     </body>
 </html>
